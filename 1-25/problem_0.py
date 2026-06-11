@@ -7,18 +7,21 @@ The first 5 square numbers are: 1,2,4,9,16  and the sum of the odd squares is 1+
 Among the first 870 thousand square numbers, what is the sum of all the odd squares?
 
 """
-import numpy as np
+def sum_of_odd_squares(limit: int):
+        ''' This function takes a integer and returns the sum of all the odd squares up to that integer. '''
+        square_nums = []
 
-square_nums = []
+        for i in range(limit + 1):
+            square_nums.append(i**2)
 
-for i in range(870000):
-    square_nums.append(i**2)
+        print(len(square_nums))
 
-print(len(square_nums))
+        total = 0
+        for num in square_nums:
+            if num % 2 > 0:
+                total += num
 
-total = 0
-for num in square_nums:
-    if num % 2 > 0:
-        total += num
+        return total
 
-print(total)
+print(sum_of_odd_squares(870000))
+
