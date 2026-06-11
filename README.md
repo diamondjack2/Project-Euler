@@ -12,6 +12,8 @@ I'm making these solutions as a portfolio piece to demonstrate my problem-solvin
 If you are working through Project Euler -- Do the problems yourself first.
 
 ## Repo Structure 
-The solutions are solved in Python code.
+The solutions are solved in Python.
+
 Each script is named to the corresponding problem index value. eg: Problem_001.py 
+
 At the top of each script is the original question followed by my solution code.
