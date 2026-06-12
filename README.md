@@ -7,7 +7,10 @@ I use these challenges to work on my problem-solving skills in the world of math
 
 ## Note 
 I'm fully aware and respect the fact that the Project Euler community would like solutions to remain private.
-I'm making these solutions as a portfolio piece to demonstrate my problem-solving skills.
+I'm using the first 100 solutions as a portfolio piece to demonstrate my problem-solving skills.
+The site notes "Members found to be spoiling problems beyond the first one-hundred problems will have their accounts locked."
+
+If you wish to see my account progress beyond these first 100, my member user name is diamondjack2.
 
 If you are working through Project Euler -- Do the problems yourself first.
 
